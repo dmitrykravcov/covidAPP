@@ -3,6 +3,6 @@ import Swinject
 
 
 class Dependency{
-    static var conteiner = Container()
+    static var container = Container()
 }
 

@@ -9,9 +9,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let conteiner = Container()
-        conteiner.register(FieldValidator.self) {_ in LoginPasswordValidator()}
-        Dependency.conteiner = conteiner
+        let container = Container()
+        container.register(FieldValidator.self) {_ in LoginPasswordValidator()}
+        Dependency.container = container
         
         return true
     }
