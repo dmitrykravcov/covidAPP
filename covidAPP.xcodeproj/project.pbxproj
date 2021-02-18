@@ -9,38 +9,42 @@
 /* Begin PBXBuildFile section */
 		315F31999B9EEA7C1E4E2B82 /* Pods_covidAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3651352C71C92EA6CC9E446A /* Pods_covidAPP.framework */; };
 		8F11EEDA25716F97000F5BCA /* CasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F11EED925716F97000F5BCA /* CasesViewController.swift */; };
-		8F11EEDE257179FD000F5BCA /* StructureData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F11EEDD257179FD000F5BCA /* StructureData.swift */; };
+		8F11EEDE257179FD000F5BCA /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F11EEDD257179FD000F5BCA /* Data.swift */; };
 		8F11EEE72572ABC4000F5BCA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F11EEE62572ABC4000F5BCA /* ProfileViewController.swift */; };
 		8F11EEEB2573AE39000F5BCA /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F11EEEA2573AE39000F5BCA /* NewsViewController.swift */; };
 		8F11EF1025755D61000F5BCA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F11EF0F25755D61000F5BCA /* LoginViewController.swift */; };
-		8F2F0C5925AE0CC6002ADE66 /* DependencyLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0C5825AE0CC6002ADE66 /* DependencyLogin.swift */; };
-		8F2F0C5C25AE1E02002ADE66 /* StructureCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0C5B25AE1E02002ADE66 /* StructureCountry.swift */; };
-		8F2F0C5F25AE1E4A002ADE66 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0C5E25AE1E4A002ADE66 /* InfoView.swift */; };
-		8F2F0C6325B0AAFF002ADE66 /* ValidationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0C6225B0AAFF002ADE66 /* ValidationProtocol.swift */; };
+		8F2F0C5C25AE1E02002ADE66 /* StructCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0C5B25AE1E02002ADE66 /* StructCountry.swift */; };
+		8F2F0C5F25AE1E4A002ADE66 /* DetailCasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0C5E25AE1E4A002ADE66 /* DetailCasesViewController.swift */; };
 		8F3D097B254B5C4600119814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D097A254B5C4600119814 /* AppDelegate.swift */; };
 		8F3D097D254B5C4600119814 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D097C254B5C4600119814 /* SceneDelegate.swift */; };
 		8F3D0982254B5C4600119814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3D0980254B5C4600119814 /* Main.storyboard */; };
 		8F3D0984254B5C4800119814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3D0983254B5C4800119814 /* Assets.xcassets */; };
 		8F3D0987254B5C4800119814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3D0985254B5C4800119814 /* LaunchScreen.storyboard */; };
+		8F3F6B4D25DC6AA800901BC8 /* CheckLoginAndPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3F6B4C25DC6AA800901BC8 /* CheckLoginAndPassword.swift */; };
+		8F3F6B5125DC6B4E00901BC8 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3F6B5025DC6B4E00901BC8 /* Dependency.swift */; };
+		8F89810A25DB0F83009F83AB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F89810925DB0F83009F83AB /* TabBarViewController.swift */; };
+		8FA3A6DD25B742E600871699 /* DarkmodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3A6DC25B742E600871699 /* DarkmodeManager.swift */; };
+		8FA3A6E325B74CD100871699 /* DarkmodeOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3A6E225B74CD100871699 /* DarkmodeOn.swift */; };
+		8FA3A6E625B74CFD00871699 /* DarkmodeOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3A6E525B74CFD00871699 /* DarkmodeOff.swift */; };
+		8FA3A6E925B74F8500871699 /* DependencyDarkmode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3A6E825B74F8500871699 /* DependencyDarkmode.swift */; };
+		8FA3A6EC25B9EE3700871699 /* LogoutLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3A6EB25B9EE3700871699 /* LogoutLogger.swift */; };
+		8FA3A71525C32C2E00871699 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3A71425C32C2E00871699 /* LoginViewModel.swift */; };
 		8FE262DF25B479C400F3A726 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE262DE25B479C400F3A726 /* NewsCell.swift */; };
-		8FE262E325B4883400F3A726 /* StructureArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE262E225B4883400F3A726 /* StructureArticle.swift */; };
-		8FE262E625B4889C00F3A726 /* StuctureImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE262E525B4889C00F3A726 /* StuctureImageInfo.swift */; };
-		8FE262E925B488E900F3A726 /* StructureArticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE262E825B488E900F3A726 /* StructureArticles.swift */; };
-		8FE2631425B61E6600F3A726 /* LoginPasswordValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE2631325B61E6600F3A726 /* LoginPasswordValidation.swift */; };
+		8FE262E325B4883400F3A726 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE262E225B4883400F3A726 /* Article.swift */; };
+		8FE262E625B4889C00F3A726 /* ImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE262E525B4889C00F3A726 /* ImageInfo.swift */; };
+		8FE262E925B488E900F3A726 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE262E825B488E900F3A726 /* Articles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		244B2F6175052D6C36C34A41 /* Pods-covidAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covidAPP.release.xcconfig"; path = "Target Support Files/Pods-covidAPP/Pods-covidAPP.release.xcconfig"; sourceTree = "<group>"; };
 		3651352C71C92EA6CC9E446A /* Pods_covidAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_covidAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F11EED925716F97000F5BCA /* CasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasesViewController.swift; sourceTree = "<group>"; };
-		8F11EEDD257179FD000F5BCA /* StructureData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureData.swift; sourceTree = "<group>"; };
+		8F11EEDD257179FD000F5BCA /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		8F11EEE62572ABC4000F5BCA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8F11EEEA2573AE39000F5BCA /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		8F11EF0F25755D61000F5BCA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		8F2F0C5825AE0CC6002ADE66 /* DependencyLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyLogin.swift; sourceTree = "<group>"; };
-		8F2F0C5B25AE1E02002ADE66 /* StructureCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureCountry.swift; sourceTree = "<group>"; };
-		8F2F0C5E25AE1E4A002ADE66 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
-		8F2F0C6225B0AAFF002ADE66 /* ValidationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationProtocol.swift; sourceTree = "<group>"; };
+		8F2F0C5B25AE1E02002ADE66 /* StructCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructCountry.swift; sourceTree = "<group>"; };
+		8F2F0C5E25AE1E4A002ADE66 /* DetailCasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCasesViewController.swift; sourceTree = "<group>"; };
 		8F3D0977254B5C4600119814 /* covidAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = covidAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3D097A254B5C4600119814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F3D097C254B5C4600119814 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,11 +52,21 @@
 		8F3D0983254B5C4800119814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F3D0986254B5C4800119814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F3D0988254B5C4800119814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3F6B4C25DC6AA800901BC8 /* CheckLoginAndPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLoginAndPassword.swift; sourceTree = "<group>"; };
+		8F3F6B5025DC6B4E00901BC8 /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
+		8F89810925DB0F83009F83AB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		8FA3A6DC25B742E600871699 /* DarkmodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkmodeManager.swift; sourceTree = "<group>"; };
+		8FA3A6E225B74CD100871699 /* DarkmodeOn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkmodeOn.swift; sourceTree = "<group>"; };
+		8FA3A6E525B74CFD00871699 /* DarkmodeOff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkmodeOff.swift; sourceTree = "<group>"; };
+		8FA3A6E825B74F8500871699 /* DependencyDarkmode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyDarkmode.swift; sourceTree = "<group>"; };
+		8FA3A6EB25B9EE3700871699 /* LogoutLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutLogger.swift; sourceTree = "<group>"; };
+		8FA3A70925C0831500871699 /* covidAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = covidAPPTests.swift; sourceTree = "<group>"; };
+		8FA3A70B25C0831500871699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA3A71425C32C2E00871699 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		8FE262DE25B479C400F3A726 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
-		8FE262E225B4883400F3A726 /* StructureArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureArticle.swift; sourceTree = "<group>"; };
-		8FE262E525B4889C00F3A726 /* StuctureImageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuctureImageInfo.swift; sourceTree = "<group>"; };
-		8FE262E825B488E900F3A726 /* StructureArticles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureArticles.swift; sourceTree = "<group>"; };
-		8FE2631325B61E6600F3A726 /* LoginPasswordValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPasswordValidation.swift; sourceTree = "<group>"; };
+		8FE262E225B4883400F3A726 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		8FE262E525B4889C00F3A726 /* ImageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfo.swift; sourceTree = "<group>"; };
+		8FE262E825B488E900F3A726 /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
 		9EA76C4155530FFF8AC60195 /* Pods-covidAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covidAPP.debug.xcconfig"; path = "Target Support Files/Pods-covidAPP/Pods-covidAPP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,22 +86,20 @@
 			isa = PBXGroup;
 			children = (
 				8F11EED925716F97000F5BCA /* CasesViewController.swift */,
-				8F11EEDD257179FD000F5BCA /* StructureData.swift */,
-				8F2F0C5B25AE1E02002ADE66 /* StructureCountry.swift */,
-				8F2F0C5E25AE1E4A002ADE66 /* InfoView.swift */,
+				8F11EEDD257179FD000F5BCA /* Data.swift */,
+				8F2F0C5B25AE1E02002ADE66 /* StructCountry.swift */,
+				8F2F0C5E25AE1E4A002ADE66 /* DetailCasesViewController.swift */,
 			);
 			path = Cases;
 			sourceTree = "<group>";
 		};
-		8F11EEE025724997000F5BCA /* LoginView */ = {
+		8F11EEE025724997000F5BCA /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				8F11EF0F25755D61000F5BCA /* LoginViewController.swift */,
-				8F2F0C5825AE0CC6002ADE66 /* DependencyLogin.swift */,
-				8F2F0C6225B0AAFF002ADE66 /* ValidationProtocol.swift */,
-				8FE2631325B61E6600F3A726 /* LoginPasswordValidation.swift */,
+				8F3F6B4C25DC6AA800901BC8 /* CheckLoginAndPassword.swift */,
 			);
-			path = LoginView;
+			path = Login;
 			sourceTree = "<group>";
 		};
 		8F11EEE32572A9FD000F5BCA /* News */ = {
@@ -95,9 +107,9 @@
 			children = (
 				8F11EEEA2573AE39000F5BCA /* NewsViewController.swift */,
 				8FE262DE25B479C400F3A726 /* NewsCell.swift */,
-				8FE262E225B4883400F3A726 /* StructureArticle.swift */,
-				8FE262E525B4889C00F3A726 /* StuctureImageInfo.swift */,
-				8FE262E825B488E900F3A726 /* StructureArticles.swift */,
+				8FE262E225B4883400F3A726 /* Article.swift */,
+				8FE262E525B4889C00F3A726 /* ImageInfo.swift */,
+				8FE262E825B488E900F3A726 /* Articles.swift */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -106,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				8F11EEE62572ABC4000F5BCA /* ProfileViewController.swift */,
+				8FA3A6EB25B9EE3700871699 /* LogoutLogger.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -114,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				8F3D0979254B5C4600119814 /* covidAPP */,
+				8FA3A70825C0831500871699 /* covidAPPTests */,
 				8F3D0978254B5C4600119814 /* Products */,
 				E01D7D3DFB7A62A33D2D399B /* Pods */,
 				9A0969F313F3C3F248AE9377 /* Frameworks */,
@@ -134,15 +148,57 @@
 				8F3D097A254B5C4600119814 /* AppDelegate.swift */,
 				8F3D097C254B5C4600119814 /* SceneDelegate.swift */,
 				8F3D0980254B5C4600119814 /* Main.storyboard */,
-				8F11EEE025724997000F5BCA /* LoginView */,
+				8F3F6B5025DC6B4E00901BC8 /* Dependency.swift */,
+				8F11EEE025724997000F5BCA /* Login */,
 				8F11EEDC25717511000F5BCA /* Cases */,
 				8F11EEE32572A9FD000F5BCA /* News */,
 				8F11EEE52572AB91000F5BCA /* Profile */,
-				8F3D0983254B5C4800119814 /* Assets.xcassets */,
+				8F89810825DB0F4F009F83AB /* Tabbar */,
+				8FA3A71325C32BFB00871699 /* Protocols */,
+				8FA3A6E025B748B500871699 /* DarkmodeFeature */,
 				8F3D0985254B5C4800119814 /* LaunchScreen.storyboard */,
+				8F3D0983254B5C4800119814 /* Assets.xcassets */,
 				8F3D0988254B5C4800119814 /* Info.plist */,
 			);
 			path = covidAPP;
+			sourceTree = "<group>";
+		};
+		8F89810825DB0F4F009F83AB /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				8F89810925DB0F83009F83AB /* TabBarViewController.swift */,
+			);
+			name = Tabbar;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8FA3A6E025B748B500871699 /* DarkmodeFeature */ = {
+			isa = PBXGroup;
+			children = (
+				8FA3A6DC25B742E600871699 /* DarkmodeManager.swift */,
+				8FA3A6E825B74F8500871699 /* DependencyDarkmode.swift */,
+				8FA3A6E225B74CD100871699 /* DarkmodeOn.swift */,
+				8FA3A6E525B74CFD00871699 /* DarkmodeOff.swift */,
+			);
+			path = DarkmodeFeature;
+			sourceTree = "<group>";
+		};
+		8FA3A70825C0831500871699 /* covidAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FA3A70925C0831500871699 /* covidAPPTests.swift */,
+				8FA3A70B25C0831500871699 /* Info.plist */,
+			);
+			path = covidAPPTests;
+			sourceTree = "<group>";
+		};
+		8FA3A71325C32BFB00871699 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8FA3A71425C32C2E00871699 /* LoginViewModel.swift */,
+			);
+			name = Protocols;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		9A0969F313F3C3F248AE9377 /* Frameworks */ = {
@@ -190,7 +246,7 @@
 		8F3D096F254B5C4500119814 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1210;
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					8F3D0976254B5C4600119814 = {
@@ -277,21 +333,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F11EF1025755D61000F5BCA /* LoginViewController.swift in Sources */,
-				8FE262E925B488E900F3A726 /* StructureArticles.swift in Sources */,
-				8F2F0C5F25AE1E4A002ADE66 /* InfoView.swift in Sources */,
-				8FE262E625B4889C00F3A726 /* StuctureImageInfo.swift in Sources */,
-				8FE262E325B4883400F3A726 /* StructureArticle.swift in Sources */,
+				8FE262E925B488E900F3A726 /* Articles.swift in Sources */,
+				8FA3A71525C32C2E00871699 /* LoginViewModel.swift in Sources */,
+				8F2F0C5F25AE1E4A002ADE66 /* DetailCasesViewController.swift in Sources */,
+				8FE262E625B4889C00F3A726 /* ImageInfo.swift in Sources */,
+				8FE262E325B4883400F3A726 /* Article.swift in Sources */,
+				8F3F6B5125DC6B4E00901BC8 /* Dependency.swift in Sources */,
+				8F3F6B4D25DC6AA800901BC8 /* CheckLoginAndPassword.swift in Sources */,
 				8F11EEDA25716F97000F5BCA /* CasesViewController.swift in Sources */,
-				8F11EEDE257179FD000F5BCA /* StructureData.swift in Sources */,
+				8F11EEDE257179FD000F5BCA /* Data.swift in Sources */,
 				8F11EEE72572ABC4000F5BCA /* ProfileViewController.swift in Sources */,
-				8F2F0C5925AE0CC6002ADE66 /* DependencyLogin.swift in Sources */,
+				8FA3A6E625B74CFD00871699 /* DarkmodeOff.swift in Sources */,
+				8FA3A6DD25B742E600871699 /* DarkmodeManager.swift in Sources */,
 				8F3D097B254B5C4600119814 /* AppDelegate.swift in Sources */,
-				8F2F0C6325B0AAFF002ADE66 /* ValidationProtocol.swift in Sources */,
+				8F89810A25DB0F83009F83AB /* TabBarViewController.swift in Sources */,
+				8FA3A6E925B74F8500871699 /* DependencyDarkmode.swift in Sources */,
+				8FA3A6EC25B9EE3700871699 /* LogoutLogger.swift in Sources */,
 				8F3D097D254B5C4600119814 /* SceneDelegate.swift in Sources */,
 				8F11EEEB2573AE39000F5BCA /* NewsViewController.swift in Sources */,
-				8F2F0C5C25AE1E02002ADE66 /* StructureCountry.swift in Sources */,
+				8F2F0C5C25AE1E02002ADE66 /* StructCountry.swift in Sources */,
+				8FA3A6E325B74CD100871699 /* DarkmodeOn.swift in Sources */,
 				8FE262DF25B479C400F3A726 /* NewsCell.swift in Sources */,
-				8FE2631425B61E6600F3A726 /* LoginPasswordValidation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

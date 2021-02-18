@@ -1,30 +1,36 @@
 import Foundation
+import UIKit
 
 struct Country: Decodable {
+    var country: String
     var infected: Int?
     var recovered: Int?
-    var country: String
+    var deceased: Int?
 
     private enum CodingKeys: String, CodingKey {
             case infected,
                  recovered,
-                 country
+                 country,
+                 deceased
         }
 
-    init(infected: Int? = nil,
+    init(country: String? = nil,
+         infected: Int? = nil,
          recovered: Int? = nil,
-         country: String? = nil) {
+         deceased: Int? = nil) {
+            self.country = country!
             self.infected = infected!
             self.recovered = recovered!
-            self.country = country!
+            self.deceased = deceased!
 
     }
 
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        infected = try? container.decode(Int.self, forKey: .infected)
         country = try container.decode(String.self, forKey: .country)
+        infected = try? container.decode(Int.self, forKey: .infected)
         recovered = try? container.decode(Int.self, forKey: .recovered)
+        deceased = try? container.decode(Int.self, forKey: .deceased)
     }
     
 }

@@ -1,11 +1,9 @@
 import Foundation
 
 
-class LoginPasswordValidator: FieldValidator {
-    
-    public func checkLoginAndPassword (_ login: String ,_ password: String) -> Bool{
+class ComplexLogPassFieldValidator: FieldValidator {
+    func checkLoginAndPassword (_ login: String ,_ password: String) -> Bool{
         if ((login != "") && (checkPasswordCount(password))){
-            
             return true
         }else {
             return false
@@ -14,10 +12,14 @@ class LoginPasswordValidator: FieldValidator {
     }
     
     private func checkPasswordCount(_ password: String) -> Bool{
-        if password.count >= 9{
+        if password.count >= 9 {
             return true
         }else{
             return false
         }
+    }
+    
+    func passwordValidator(_ password: String) -> Bool {
+        return false
     }
 }

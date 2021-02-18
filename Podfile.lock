@@ -1,16 +1,20 @@
 PODS:
+  - KeychainAccess (4.2.1)
   - Swinject (2.7.1)
 
 DEPENDENCIES:
+  - KeychainAccess
   - Swinject
 
 SPEC REPOS:
   trunk:
+    - KeychainAccess
     - Swinject
 
 SPEC CHECKSUMS:
+  KeychainAccess: 9b07f665298d13c3a85881bd3171f6f49b8151c1
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
 
-PODFILE CHECKSUM: 1aa3418bf38bbf46469caad26a0b14fa14bcb2dd
+PODFILE CHECKSUM: 151be7fb6e4429755cf5d46a4cb37effbbcdd68d
 
 COCOAPODS: 1.10.0

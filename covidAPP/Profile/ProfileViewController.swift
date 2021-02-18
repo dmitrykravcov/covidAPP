@@ -1,9 +1,13 @@
 import UIKit
 import UserNotifications
 class ProfileViewController: UIViewController, UNUserNotificationCenterDelegate{
-
+  
+    @IBOutlet weak var LogoutButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
         let center = UNUserNotificationCenter.current()
 
@@ -60,7 +64,11 @@ class ProfileViewController: UIViewController, UNUserNotificationCenterDelegate{
         completionHandler()
     }
 
-
+    @IBAction func GoToLoginViewController() {
+        navigationController?.popToRootViewController(animated: true)
+    }
+    
+    
     }
     
 
